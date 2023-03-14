@@ -59,12 +59,14 @@
 .imageSide {
   width: 25%;
   height: 100%;
+  text-align: center; /* add this line */
 }
 
 .image {
   width: 85%;
   border-radius: 16px;
 }
+
 
 .buttons {
   display: flex;
@@ -224,4 +226,10 @@
   .imageSide {
     width: 100%;
   }
+@media screen and (max-width: 850px) {
+  .image {
+    width: 75%; /* adjust this as needed */
+  }
 }
+
+
