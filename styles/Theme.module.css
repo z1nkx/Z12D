@@ -25,12 +25,10 @@
   object-fit: contain; /* or object-fit: cover; */
 }
 
-
 .mintInfoContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100%;
   padding: 0 24px;
   min-height: 720px;
@@ -42,13 +40,11 @@
   color: var(--text-color);
 }
 
-
-
 .infoSide {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 45%;
+  width: 100%;
   height: 100%;
 }
 
@@ -58,13 +54,13 @@
 }
 
 .imageSide {
-  width: 25%;
-  height: 100%;
-  text-align: center; /* add this line */
+  width: 100%;
+  height: auto;
+  text-align: center;
 }
 
 .image {
-  width: 85%;
+  width: 75%;
   border-radius: 16px;
 }
 
@@ -146,11 +142,7 @@
 
 .quantityContainer {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 10%;
-}
+  flex
 
 .mintContainer {
   display: flex;
